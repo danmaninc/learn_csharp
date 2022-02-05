@@ -30,7 +30,7 @@ namespace ConsoleApp1
             {
                 isDead = true;
             }
-            return isDead
+            return isDead;
         }
     }
 }
