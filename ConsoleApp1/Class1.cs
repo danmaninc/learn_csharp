@@ -12,5 +12,9 @@ namespace ConsoleApp1
         private int health;
         private int speed;
         private int price;
+        public int Storming()
+        { 
+            return attack;
+        }
     }
 }
