@@ -14,7 +14,15 @@ namespace ConsoleApp1
             while (!spearman1.isDead() || !spearman2.isDead())
             {
                 spearman1.getHit(attackSpearman2);
+                if (spearman1.isDead())
+                {
+                    break;
+                }
                 spearman2.getHit(attackSpearman1);
+                if (spearman2.isDead())
+                {
+                    break;
+                }
             }
         }
     }
