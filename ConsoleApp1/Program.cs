@@ -7,7 +7,15 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Spearman spearman1 = new Spearman();
-            int attack = spearman1.Storming();
+            Spearman spearman2 = new Spearman();
+            int attackSpearman1 = spearman1.Storming();
+            int attackSpearman2 = spearman2.Storming();
+
+            while (!spearman1.isDead() || !spearman2.isDead())
+            {
+                spearman1.getHit(attackSpearman2);
+                spearman2.getHit(attackSpearman1);
+            }
         }
     }
 }
