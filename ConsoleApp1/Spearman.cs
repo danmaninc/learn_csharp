@@ -16,7 +16,7 @@ namespace ConsoleApp1
         { 
             return attack;
         }
-        public void Hit(int damage)
+        public void getHit(int damage)
         {
             health = health - damage;
         }
