@@ -8,6 +8,7 @@ namespace ConsoleApp1
         {
             Spearman spearman1 = new Spearman();
             Spearman spearman2 = new Spearman();
+
             int attackSpearman1 = spearman1.Storming();
             int attackSpearman2 = spearman2.Storming();
 
@@ -19,13 +20,9 @@ namespace ConsoleApp1
                     break;
                 }
                 spearman2.getHit(attackSpearman1);
-                if (spearman2.isDead())
-                {
-                    break;
-                }
             }
             Console.WriteLine("Первый копейщик мёртв " + spearman1.isDead());
-            Console.WriteLine("Второй копейщик мёртв" + spearman2.isDead());
+            Console.WriteLine("Второй копейщик мёртв " + spearman2.isDead());
         }
     }
 }
