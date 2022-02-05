@@ -16,5 +16,21 @@ namespace ConsoleApp1
         { 
             return attack;
         }
+        public void Hit(int damage)
+        {
+            health = health - damage;
+        }
+        public bool isDead()
+        {
+            bool isDead;
+            if (health > 0)
+            {
+                isDead = false;
+            } else
+            {
+                isDead = true;
+            }
+            return isDead
+        }
     }
 }
