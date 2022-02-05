@@ -6,15 +6,15 @@ namespace ConsoleApp1
 {
     internal class Spearman
     {
-        private int attack = 1;
-        private int defense;
-        private int damage;
-        private int health = 4;
-        private int speed;
-        private int price;
+        private int attack = 4;
+        private int defense = 5;
+        private int health = 10;
+        private int speed = 4;
+        private int price = 60;
         public int Storming()
-        { 
-            return attack;
+        {
+            Random rnd = new Random();
+            return rnd.Next(1, 4);
         }
         public void getHit(int damage)
         {
