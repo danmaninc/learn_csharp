@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ConsoleApp1
 {
-    class Archer
+    internal class Archer
     {
         private int attack = 6;
         private int defense = 3;
