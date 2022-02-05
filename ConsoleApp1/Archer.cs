@@ -27,7 +27,8 @@ namespace ConsoleApp1
             if (health > 0)
             {
                 isDead = false;
-            } else
+            } 
+            else
             {
                 isDead = true;
             }
