@@ -2,11 +2,12 @@
 
 namespace ConsoleApp1
 {
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Spearman spearman1 = new Spearman();
+            int attack = spearman1.Storming();
         }
     }
 }
