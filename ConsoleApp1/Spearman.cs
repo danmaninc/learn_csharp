@@ -6,10 +6,10 @@ namespace ConsoleApp1
 {
     internal class Spearman
     {
-        private int attack;
+        private int attack = 1;
         private int defense;
         private int damage;
-        private int health;
+        private int health = 4;
         private int speed;
         private int price;
         public int Storming()
