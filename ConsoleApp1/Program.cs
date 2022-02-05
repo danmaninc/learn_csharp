@@ -24,8 +24,8 @@ namespace ConsoleApp1
                     break;
                 }
             }
-            Console.WriteLine("Первый копейщик " + spearman1.isDead());
-            Console.WriteLine("Второй копейщик " + spearman2.isDead());
+            Console.WriteLine("Первый копейщик мёртв " + spearman1.isDead());
+            Console.WriteLine("Второй копейщик мёртв" + spearman2.isDead());
         }
     }
 }
